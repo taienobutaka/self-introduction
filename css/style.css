@@ -32,8 +32,13 @@ header {
 .profile-photo {
     display: block;
     margin: 0 auto 1rem;
-    max-width: 50%; /* ここを調整して写真の大きさを変更 */
+    max-width: 30%; /* ここを調整して写真の大きさを変更 */
     height: auto;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.5em; /* ここでフォントサイズを調整 */
 }
