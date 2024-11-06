@@ -8,21 +8,27 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding: 16px 0;
     text-align: center;
 }
 
+header h1 {
+    font-size: 36px; /* h1タグのフォントサイズを設定 */
+}
+
 .introduction {
-    margin: 2rem auto;
-    padding: 1rem;
+    margin: 32px auto;
+    padding: 16px;
     max-width: 600px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* セクション全体を中央揃えに設定 */
 }
 
 .introduction h2 {
     color: #333;
+    font-size: 30px; /* h2タグのフォントサイズを設定 */
 }
 
 .introduction p {
@@ -31,8 +37,8 @@ header {
 
 .profile-photo {
     display: block;
-    margin: 0 auto 1rem;
-    max-width: 30%; /* ここを調整して写真の大きさを変更 */
+    margin: 0 auto 16px;
+    max-width: 30%;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -40,5 +46,14 @@ header {
 
 .name {
     font-weight: bold;
-    font-size: 1.5em; /* ここでフォントサイズを調整 */
+    font-size: 24px;
+    margin-bottom: 16px; /* 名前の下に一行分のスペースを追加 */
+}
+
+.introduction .spacer {
+    margin-top: 16px; /* 出身地の上に空間を追加 */
+}
+
+.contact-heading {
+    margin-top: 32px; /* 連絡先の上に空間を追加 */
 }
