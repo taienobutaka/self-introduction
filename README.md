@@ -2,6 +2,7 @@
 
 html/cssで作成しました。
 
-![スクリーンショット 2024-11-05 143701](https://github.com/user-attachments/assets/f3ec8829-a82d-4f62-8af3-3bc46afa848c)
+![スクリーンショット 2024-11-06 110040](https://github.com/user-attachments/assets/025e5412-45c3-494f-8653-adcc54e9ee62)
+
 
 
