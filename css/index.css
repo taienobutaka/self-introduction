@@ -1,0 +1,97 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-picture {
+  background-image: url("../img/taie.JPG");
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 200px; /* 高さを変更して楕円形にします */
+  border-radius: 50%; /* 楕円形にするための調整 */
+  position: absolute;
+  top: 150px; /* 位置を150pxに変更 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-info {
+  position: absolute;
+  top: 150px; /* 顔写真と同じ高さに配置 */
+  left: calc(50% - 200px); /* 顔写真の左隣に配置 */
+  transform: translate(-50%, -50%);
+  text-align: right; /* 右揃え */
+}
+
+.profile-info .role {
+  margin-bottom: 10px; /* 下の余白を10pxに変更 */
+  font-size: 18px; /* 基準となるフォントサイズ */
+}
+
+.profile-info .name {
+  margin-bottom: 10px; /* 下の余白を5pxに変更 */
+  font-size: 16px; /* 少し小さなフォントサイズ */
+}
+
+.profile-info .title {
+  font-size: 26px; /* 大きなフォントサイズ */
+  font-weight: bold; /* 太文字 */
+}
+
+.buttons {
+  position: absolute;
+  top: 400px; /* 顔写真の下に配置 */
+  left: 40%; /* 全体を左に移動 */
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 40px; /* ボタン間のスペースを40pxに変更 */
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* 影を追加 */
+  text-decoration: none; /* 下線を削除 */
+  display: flex;
+  align-items: center; /* 垂直方向の中央揃え */
+  justify-content: center; /* 水平方向の中央揃え */
+}
+
+.button--intro {
+  background: linear-gradient(
+    to right,
+    blue,
+    green
+  ); /* 左が青で右が緑のグラデーション */
+}
+
+.button--portfolio {
+  background: linear-gradient(
+    to right,
+    red,
+    orange
+  ); /* 左が赤で右がオレンジのグラデーション */
+}
+
+.button--contact {
+  background: linear-gradient(
+    to right,
+    purple,
+    pink
+  ); /* 任意のグラデーション */
+}

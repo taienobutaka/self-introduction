@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.portfolio-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.portfolio-link {
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
+.portfolio-description {
+  font-size: 18px;
+}
